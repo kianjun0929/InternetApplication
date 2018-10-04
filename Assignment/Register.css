@@ -1,0 +1,138 @@
+﻿#container{
+	width:800px;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+#title{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:x-large;
+}
+
+.content{
+font-family:"Times New Roman", Times, serif;
+	font-size:medium;
+	font-style:italic;	
+}
+
+h1{
+	text-align: center;
+	font-size: 50px;
+	color: steelblue;
+}
+
+form{
+	margin: 20px auto ;
+	width: 600px;
+	color:black;
+	font-size: large;
+}
+
+input{
+	padding:10px;
+	font-size:inherit;
+	font-size:medium;
+}
+
+input[type=text]{
+	display:block;
+	margin-bottom:25px;
+	width:100%;
+	border:2px solid steelblue;
+	font-size:medium;
+	background:silver;
+	margin:center;
+}
+
+input[type=email]{
+	display: block;
+	margin-bottom:25px;
+	width: 100%;
+	border:2px solid steelblue;
+	font-size:medium;
+	background:silver;
+}
+
+input[type=date]{
+	display: block;
+	margin-bottom:25px;
+	width: 100%;
+	border:2px solid steelblue;
+	font-size:medium;
+	background:silver;
+}
+
+input[type=tel]{
+	display: block;
+	margin-bottom:25px;
+	width: 100%;
+	border:2px solid steelblue;
+	font-size:medium;
+	background:silver;
+}
+
+input[type=checkbox]{
+	margin: 0 8px 25px 18px;
+	font-size:medium;
+}
+
+input[type=submit]{
+	width:250px;
+	height: 45px;
+	border:none;
+	background:steelblue;
+	color: white;
+}
+
+input[type=submit]:hover{
+	width:250px;
+	height: 45px;
+	border:solid steelblue;
+	background:white;
+	color: Steelblue;
+	transform: translate(0, -5px);
+	transition: 400ms;	
+	box-shadow: 0px 6px 20px -6px #000000;
+
+}
+
+input[type=reset]{
+	width:250px;
+	height: 45px;
+	border:none;
+	background:steelblue;
+	color: white;
+}
+
+input[type=reset]:hover{
+	width:250px;
+	height: 45px;
+	border:solid steelblue;
+	background:white;
+	color: Steelblue;
+	transform: translate(0, -5px);
+	transition: 400ms;	
+	box-shadow: 0px 6px 20px -6px #000000;
+
+}
+
+input:focus{
+	background: white;
+}
+input[type=checkbox]:checked + label{
+	font-weight: bold;
+	font-size: 30px;
+}
+
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.stories{
+	width:250px;
+	height: 45px;
+	border:none;
+	background:steelblue;
+	color: black;
+
+}

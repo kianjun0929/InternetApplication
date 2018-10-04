@@ -1,0 +1,79 @@
+﻿body{
+	background-color: black;
+}
+
+#container{
+	width:930px;
+	margin-right:auto;
+	margin-left:auto;
+}
+.AboutUs{
+	color: white;
+	font-family: "Courier New", Courier, monospace;
+    font-size: 50px;
+	background-image: url('EDITED-BG-Backgroundless-e1491292804782.png');
+	padding-left: 10px;
+	padding-top: 10px;
+	background-position: center;
+	background-color: black;
+	
+}
+
+.hr {
+ color: #D8BEB4;
+}
+
+#title{
+	font-family:  "Courier New", Courier, monospace;
+	 text-decoration: blink;
+	 font-style:italic;
+	 font-size: 30px;
+	 color: white;
+}
+
+.column{
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	font-size: 20px;
+	color: white;
+	text-align:justify;
+}
+#Membership{
+ font-family: "Courier New", Courier, monospace;
+ font-size: 21px;
+ color: white;
+}
+
+.column2{
+	font-size: 25px;
+	font-family: Impact;	
+	color: black;
+}
+
+.imagecolumn{
+ float: left;
+ width: 32%;
+ padding:5px;
+}
+
+.imagerow::after{
+	content:"";
+	clear: both;
+	display: table;
+}
+
+.center {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width:auto;
+}
+
+.right{
+	display: block;
+    margin-left: auto;
+
+}
+
+mark {
+background-color:white;
+}

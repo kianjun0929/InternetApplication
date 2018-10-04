@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>REGISTRATION FORM | APU BADMINTON CLUB</title>
+<link rel="icon" type="image/png" href="Registericon.png"/>
+<link href="Register.css" rel="stylesheet"/>
+
+<script>
+function submitForm() {
+  return confirm('Do you really want to submit the form?');
+}
+</script>
+</head>
+
+<body>
+<center><h1>Registration Form</h1></center>
+<form action="RegisterLast.html" onsubmit="return submitForm()" method="post">
+
+<b>Name :</b>&nbsp;<input type="text" name="fname"  placeholder="Your Name" size="40" required/><br/>
+
+<b>TP Number :</b> &nbsp;<input type="text" name="ftp"  placeholder="TP012345" maxlength="8" required/><br/>
+
+<b>Gender :</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="fgender" />Male&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="fgender" />Female  <br/><br/><br/>
+
+<b>Address :</b> &nbsp;<input type="text" name="faddress" placeholder="Address Line 1" maxlength="100" required/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;<input type="text" name="Address Line 2" placeholder="Address Line 2" maxlength="100"/><br/>
+
+<b>Town/City :</b> &nbsp;<input type="text" name="ftown" placeholder="Town/City" required/><br/>
+
+<b>Mobile Phone : </b>&nbsp; <input type="tel" name="fphonenum" placeholder="xxx-xxxxxxxx" size="5" minlength="10"  maxlength="14" required/> 
+
+<b>Date of Birth :</b> &nbsp;  <input type="date" name="fdate" required/><br/>
+
+<b>Course :</b> &nbsp; <input type="text" name="fcourse" placeholder="Diploma In Information Technology" required/><br/>
+
+<b>E-mail :</b> &nbsp; <input name="EmailAddress" type="email" placeholder="example@email.com" required /><br/>
+
+<b>Intake Code :</b> &nbsp; <input type="text" name="fintakecode" placeholder="Example:UCDF1709ICT" required/><br/>
+
+<b>Type of Player :</b><br/><br/>
+<input type="checkbox"  name="Single"/>Single <br/>
+<input type="checkbox" name="Double"/>Double <br/>
+<input type="checkbox" name="Mix"/>Mix <br/><br/>
+
+<center>
+ <input type = "submit" value ="Submit"/>&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="reset"/>
+</center>
+</form>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+﻿body{
+	background-color: black;
+}
+#container{
+	width:930px;
+	margin-right:auto;
+	margin-left:auto;
+}
+#passage{
+	background-color: transparent;
+}
+.Title{
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+	color:white;
+}
+.content{
+	width:930px;
+	margin-right:auto;
+	margin-left:auto;
+	color:white;
+}
+#articletitle{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size: 30px;
+	background-color: #8C8CFF;
+}
+.article{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color:white;
+}
+#articletitle1{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:30px;
+	background-color:silver;
+}
+.article1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color:white;
+
+}
+#articletitle2{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:30px;
+	background-color:gray;
+}
+.article2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    color:white;
+
+}

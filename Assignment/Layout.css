@@ -1,0 +1,292 @@
+﻿body {
+	font-family:"Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	color: black;
+	font-size: 12px;
+	margin: 0 0 0 0;
+	background-color: rgba(192, 192, 192, 0.45);
+}
+a {
+	color: white;
+	text-decoration: none;
+
+}
+a:hover {
+	color: aqua;
+	font-weight:bold;
+
+}
+.a:hover{
+	width:100px;
+	position:relative;
+	height:auto;
+	
+}
+.active {
+	background-color: #FF446E;
+	padding:10px;
+	border-radius:8px;
+}
+
+#header {
+	background-image: url('Badminton.jpg');
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size:cover;
+	height: 150px;
+	font-size: 65px;
+	padding-top: 90px;
+	padding-left: 50px;
+	text-align: center;
+	font-family:Elephant ;
+	font-weight: bold;
+	color:black;
+	text-shadow: 0 0 30px pink, 0 0 30px blue;
+
+}
+#nav {
+	padding: 10px;
+	font-size: 18px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-width: 5px;
+	border-bottom-width: 5px;
+	border-top-color: #000000;
+	border-bottom-color: #000000;
+	background-color: black;
+	letter-spacing:1.3pt;
+	text-align:center;
+}
+.sticky {
+    position: -webkit- sticky;
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+}
+
+#content-area {
+	padding: 25px;
+}
+#page-title {
+	font-size: 35px;
+	text-shadow: 0 0 3px #FF0000, 0 0 5px #000000;
+}
+#page-content {
+	padding: 14px;
+	text-align: justify;
+	color:black;
+	font-family:"Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	font-size:16px;
+}
+#form{
+	font-size:20px;
+	line-height:30px;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid purple;
+    border-radius: 4px;
+}
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid purple;
+    border-radius: 4px;
+}
+
+#boxed {
+
+	transition: 400ms;
+
+	padding-left: 30px;
+}
+#boxed:hover {
+	transform: translate(0, -5px);
+	transition: 400ms;	
+	box-shadow: 0px 6px 20px -6px #000000;
+
+}
+#boxed1 {
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom:20px;
+	transition: 400ms;
+}
+#boxed1:hover {
+	transform: translate(0, -5px);
+	transition: 400ms;	
+	box-shadow: 0px 6px 20px -6px #000000;
+}
+
+#footer {
+	height: 180px;
+	text-align: center;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	font-size: 12px;
+	padding-top: 8px;
+	color: gray;
+}
+
+.highlighted {
+	background-color: #ffbcf6;
+	padding-top:5px;
+	padding-bottom:5px;
+	border-style:double;
+	border:3px solid black;
+}
+.mySlides {
+	height: 400px;
+	width: 600px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    float:none;
+    text-align:left;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 100;
+    line-height:35px;
+    text-align:left;
+    
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+    text-align:left;
+}
+input[type=button] {
+    background-color: black; 
+    color: white; 
+    border: 2px solid red;
+    padding: 14px 10px;
+    text-align: center; 
+    font-size: 20px; 
+}
+
+
+input[type=submit], [type=reset]{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+    padding: 15px 32px;
+    text-align: center;   
+}
+.email{
+	color:black;
+}
+
+#th {
+	font-family:"Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	font-size:16px;
+}
+.image:hover{
+	width:100px;
+	position:relative;
+	height:auto;
+}
+
+#passage{
+	background-color: transparent;
+}
+.Title{
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.content{
+	width:930px;
+	margin-right:auto;
+	margin-left:auto;
+
+}
+#articletitle{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size: 30px;
+	background-color: #8C8CFF;
+}
+.article{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:20px;
+
+}
+#articletitle1{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:30px;
+	background-color:silver;
+}
+.article1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:20px;
+
+}
+#articletitle2{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:30px;
+	background-color:gray;
+}
+.article2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+
+}
+
+.Services{
+	font-family:"Times New Roman", Times, serif;
+		
+}
+
+.CoachingTeam{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight:bolder;
+	font-size:30px;
+}
+
+.Table{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-color:transparent;
+	font-size:20px;
+}
+
+.Coachname{
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    font-size: 20px;
+
+}
+
+.Table2{
+	font-size: 15px;
+}
+
+.ImageforSponsors {
+	transition:400ms;
+
+}
+
+.ImageforSponsors:hover {
+	transform:translae(0, -5px);
+}
+
+#button {
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom:20px;
+	transition: 400ms;
+}
+#button:hover {
+	transform: translate(0, -5px);
+	transition: 400ms;	
+	box-shadow: 0px 6px 20px -6px #000000;
+}
+

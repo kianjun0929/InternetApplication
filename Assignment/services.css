@@ -1,0 +1,52 @@
+﻿body{
+
+}
+
+.container{
+    width:930px;
+	margin-right:auto;
+	margin-left:auto;
+
+}
+.Services{
+	font-family:"Times New Roman", Times, serif;
+		
+}
+
+.CoachingTeam{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight:bolder;
+	font-size:30px;
+}
+.Coachname:hover {
+	font-weight: bold;
+	
+}
+
+.Table {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-color:transparent;
+	font-size:20px;
+}
+
+.Coachname{
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    font-size: 20px;
+
+}
+
+.Table2{
+	font-size: 15px;
+}
+
+.image_ {
+	transition: 400ms;
+
+}
+.image_:hover {
+	transform: translate(0, -5px);
+	transition: 400ms;	
+	box-shadow: 0px 6px 40px -6px #000000;
+}
+	
+}
